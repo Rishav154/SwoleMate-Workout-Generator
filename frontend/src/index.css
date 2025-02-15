@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+span {
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+.blueShadow {
+    box-shadow: 3px 3px 0 0 rgb(21, 204, 155);
+}
+
+.blueShadow:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 6px 6px 0 0 rgb(21, 204, 155);
+}
+
+.signinBtn{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.signinBtn button{
+    padding: 10px 20px;
+    color: white;
+    border: 2px solid #47c284;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.signinBtn button:hover{
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.signup{
+    background-color: rgb(1, 44, 34);
+}
+
+.signup:hover{
+    background-color: transparent;
+}
+
+.login:hover{
+    background-color: rgb(1, 44, 34);
+}
