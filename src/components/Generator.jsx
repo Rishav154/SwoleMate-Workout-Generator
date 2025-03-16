@@ -104,7 +104,7 @@ export default function Generator(props) {
                     className="relative p-3 flex items-center justify-center"
                 >
                     <p className="capitalize">
-                        {muscles.length == 0
+                        {muscles.length === 0
                             ? "Select muscle groups"
                             : muscles.join(" ")}
                     </p>
