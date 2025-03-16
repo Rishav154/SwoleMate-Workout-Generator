@@ -24,12 +24,8 @@ function App() {
             className="min-h-screen flex flex-col bg-gradient-to-r from-green-700 to-emerald-900
  text-white text-sm sm:text-base"
         >
-            <div className="signinBtn text-sm md:text-base font-light">
-                <button className="login">Login</button>
-                <button className="signup">Signup</button>
-            </div>
             <Hero />
-            {/*<Generator
+            <Generator
                 poison={poison}
                 setPoison={setPoison}
                 muscles={muscles}
@@ -38,7 +34,7 @@ function App() {
                 setGoal={setGoal}
                 updateWorkout={updateWorkout}
             />
-            {workout && <Workout workout={workout} />}*/}
+            {workout && <Workout workout={workout} />}
         </main>
     );
 }
